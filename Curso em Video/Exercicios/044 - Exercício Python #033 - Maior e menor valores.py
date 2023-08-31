@@ -21,3 +21,4 @@ while True:
         print(f"Maior número da lista = ({listaNumeros[-1]}).")
         print(f"Menor número da lista = ({listaNumeros[0]}).")
         
+
