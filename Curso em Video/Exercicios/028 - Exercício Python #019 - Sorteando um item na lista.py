@@ -29,4 +29,4 @@ print('Sorteando....')
 
 sorteio = choice(lista)
 
-print(f'O aluno sorteado foi: {choice(lista)}')
+print(f'O aluno(a) sorteado foi: {choice(lista)}')
