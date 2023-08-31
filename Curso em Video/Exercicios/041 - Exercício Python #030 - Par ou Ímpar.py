@@ -14,3 +14,4 @@ while True:
             break
     except ValueError:
         print("Digite apenas números.")
+
