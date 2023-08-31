@@ -1,10 +1,15 @@
 """
 
-Crie um programa que leie o nome de uma pessoa e diga se ela tem "SILVA" no nome.
 
 """
 
-nome = input("Digite seu nome completo: ").upper()
-primeiro_nome = nome.split(" ")[0].upper()
-print(f"Vamos conferir.")
-print(f'{primeiro_nome}, seu nome possui SILVA.') if "SILVA" in nome else print("Não possui SILVA no nome.")
+frase = input("Digite uma frase: ").upper()
+
+quant_a = frase.count("A")
+pri_a = frase.find("A") + 1
+ulti_a = frase.rfind("A") + 1
+
+print(f'A letra A aparece ({quant_a}) vezes na frase.')
+print(f'A primeira letra A apareceu na posição ({pri_a})')
+print(f'A última letra A apareceu na posição ({ulti_a})')
+
