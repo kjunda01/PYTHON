@@ -5,6 +5,7 @@ import customtkinter as ctk
 from time import sleep
 
 
+
 pygame.mixer.init()
 pygame.mixer.music.rewind()
 
