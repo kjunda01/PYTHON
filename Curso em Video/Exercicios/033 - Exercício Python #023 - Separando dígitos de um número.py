@@ -8,6 +8,7 @@ Unidade: 4
 
 """
 
+
 numero = int(input("Digite um número: "))
 verificar = len(str(numero))
 numero = str(numero)
