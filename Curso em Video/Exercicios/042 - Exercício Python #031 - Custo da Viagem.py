@@ -9,3 +9,4 @@ kms = float(input("Digite a distância da sua viagem: "))
 passagem = 0.50 if kms <= 200 else 0.45
 
 print(f"Para uma viagem de {kms:.2f} quilômetros, você pagará R${kms*passagem}".replace(".",","))
+
