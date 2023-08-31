@@ -5,7 +5,7 @@ Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escol
 
 '''
 # Bibliotecas iniciais
-from random import choice, shuffle
+from random import *
 
 # Lista vazia para iniciar
 lista = []
