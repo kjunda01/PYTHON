@@ -34,3 +34,4 @@ def formatar_numero(numero):
 salario = float(input("Qual é o salário do funcionário? "))
 aumento = (15/100 * salario) + salario if salario <= 1250 else (10/100 * salario) + salario
 print(f"\nQuem ganhava {formatar_numero(salario)} passa a ganhar {formatar_numero(aumento)}")
+
