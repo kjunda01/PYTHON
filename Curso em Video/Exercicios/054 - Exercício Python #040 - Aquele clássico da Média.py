@@ -1,16 +1,17 @@
 lista = []
 contador = 1
+soma_das_notas = 0
 
 while True:
-
-    notas = float(input("Digite a nota para média: "))
+    notas = int(input(f"Para fazer a média digite um número negativo.\n\n"
+                  f"Nota: "))
     lista.append(notas)
-    print("Lista completa: ", * lista, sep= ", ")
-    print(f"Nota {contador} adicionada. Para fazer a média digite -1")
+    lista.sort()
+    print(f"A nota de número [{contador}] foi adicionada.\n")
     contador += 1
-
-    if notas == -1:
-        media = sum(lista[:-1]) / (contador-1)
-        print(f"Média de {media}.")
+    if lista[0] < 0:
+        lista.remove(lista[0])
+        print("Lista completa:")
+        print(*lista, sep=(", "))
+        print(f"\nMédia das {contador - 2} notas: {(sum(lista)) / (contador - 2)}")
         break
-    
