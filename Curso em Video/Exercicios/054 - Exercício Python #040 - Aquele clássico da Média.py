@@ -3,7 +3,7 @@ contador = 1
 soma_das_notas = 0
 
 while True:
-    notas = int(input(f"Para fazer a média digite um número negativo.\n\n"
+    notas = float(input(f"Para fazer a média digite um número negativo.\n\n"
                   f"Nota: "))
     lista.append(notas)
     lista.sort()
