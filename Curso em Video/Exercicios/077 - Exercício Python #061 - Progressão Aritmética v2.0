@@ -1,5 +1,0 @@
-print("Gerador de PA")
-print("-=" * 10)
-termo = input("Primeiro termo: ")
-razao = input("Razão: ")
-
